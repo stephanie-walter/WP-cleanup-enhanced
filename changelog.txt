@@ -1,0 +1,3 @@
+## Version 1.3
+16 januar 2012
+- correction of the widget plugin (changed  add_action('admin_init', 'delete_menu_items'); for add_action('admin_menu', 'delete_menu_items'); )
