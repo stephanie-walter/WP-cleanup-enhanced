@@ -1,53 +1,46 @@
 /*  The css for the login page ! */
-html { }
+
+h1 a{
+	background:none;
+}
 .login h1 a {
-background:url(../images/logo.png) no-repeat; 
-width:280px; height:70px; }
-body.login { border-top-color:#bccad3; }
+background-image:url(../images/logo.png) !important; 
+width:280px; 
+height:70px; 
+}
+body.login { 
+border-top-color:#bccad3; 
+}
 
 /* Barre du haut - Lien */
-.login p#backtoblog a:link,.login p#backtoblog a:visited { color:#6c7880; }
+.login p#backtoblog a:link,.login p#backtoblog a:visited { color:rgb(32, 110, 155) !important; }
 
 /* Barre du haut - Effet de survol*/
-.login p#backtoblog a:hover,.login p#backtoblog a:active { color:#6c7880; text-decoration:underline; }
+.login p#backtoblog a:hover,.login p#backtoblog a:active { color:rgb(9, 87, 132) !important; text-decoration:underline; }
 
 /* Modification de la taille du bloc "Connexion" */
-#login { width:400px; margin:auto; }
+#login { 
+width:400px; 
+margin:0em auto; 
+}
 
 /* Modification de bouton "Se connecter" et des autres liens*/
-#login form .submit input{
-border-color:#135C90;
-font-weight:bold;
-color:#FFF;
-background:#217BBC;
-/*border-radius*/
--webkit-border-radius:3px;
-   -moz-border-radius:3px;
-        border-radius:3px;
-/*box-shadow*/
--webkit-box-shadow:0px 1px 0px 1px #4D95C9 inset;
-   -moz-box-shadow:0px 1px 0px 1px #4D95C9 inset;
-        box-shadow:0px 1px 0px 1px #4D95C9 inset;
-/*transition*/
--webkit-transition:all 0.2s linear;
-   -moz-transition:all 0.2s linear;
-     -o-transition:all 0.2s linear;
-        transition:all 0.2s linear;
+#login form .submit input { 
+border-color: rgb(4, 76, 118) !important; 
+border-radius:3px !important;
+font-weight:bold; 
+color:#FFF!important; 
+text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+background: rgb(9, 87, 132); 
+/* IE6-9 */
+ 
+}
+#login form .submit input:hover { 
+background:  rgb(37, 121, 169); 
+color:#FFFFFF!important; 
 }
 
-#login form .submit input:hover { 
-border-color:#052335; 
-background:#1B74AB;
-color:#FFFFFF; 
+.login #nav a { color:#7c8991!important; 
 }
-#login form .submit input:active{ 
-position:relative;
-top:1px;
-background:#176596;
-}
-.login #nav a { 
-color:#7c8991; 
-}
-.login #nav a:hover { 
-color:#6f7a81; 
+.login #nav a:hover { color:#6f7a81!important; 
 }
